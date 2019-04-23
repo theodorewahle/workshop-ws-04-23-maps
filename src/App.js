@@ -54,7 +54,7 @@ onClose = props => {
           <Marker
             onClick={this.onMarkerClick}
             position={{lat: 43.7044, lng: -72.2887}}
-            name={'This is a marker we just made yay!'}
+            name={'THIS IS THE GREEN'}
           />
           <InfoWindow marker={this.state.activeMarker} onClose={this.onClose}
           visible={this.state.showingInfoWindow}>
